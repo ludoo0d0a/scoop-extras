@@ -1,13 +1,13 @@
 {
-    "version": "2021.4.0",
+    "version": "1.4.3",
     "description": "The free lightweight GUI for MongoDB enthusiasts",
     "homepage": "https://robomongo.org",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://download.studio3t.com/studio-3t/windows/2021.4.0/studio-3t-x64.zip",
-            "hash": "6F7C834D9088FF5EACE2BE44424C81A0F309ADA4AF704399EAC130526D4141CE",
-            "extract_dir": "robo3t-2021.4.0-windows-x86_64-8650949"
+            "url": "https://download.studio3t.com/robomongo/windows/robo3t-1.4.3-windows-x86_64-48f7dfd.zip",
+            "hash": "ABA7C7E5ED36A78339B60DECCAB90EAE312CC9ACDBF4A9F9E173CB377842C269",
+            "extract_dir": "robo3t-1.4.3-windows-x86_64-48f7dfd"
         }
     },
     "shortcuts": [
