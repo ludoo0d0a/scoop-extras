@@ -1,0 +1,50 @@
+repo_name: ludoo0d0a/scoop-extras
+report_id: 35851c42cdc3ba9822707600b774b3c6
+repo_type: Public
+timestamp: '2023-11-09T21:36:51+00:00'
+requested_by: ludoo0d0a
+provider: github
+branch: master
+detected_tools_count: 4
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/pull_request.yml"
+  last_updated_by: Jakub Čábera
+  last_updated_on: 2020-07-22 15:13:49.000000000 Z
+- name: Grafana
+  description: Open source Graphite &amp; InfluxDB Dashboard and Graph Editor
+  website_url: http://grafana.org/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2645/default_8f9d552b144493679449b16c79647da5787e808b.jpg
+  detection_source: bucket/grafana.json
+  last_updated_by: Richard Kuhnt
+  last_updated_on: 2021-06-18 10:11:46.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source: Repo Metadata
